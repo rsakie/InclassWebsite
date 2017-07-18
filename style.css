@@ -2,8 +2,9 @@
 .topnav {
     text-align:center;
     display:block;
-    color:black;
-    font-size: 20px;    
+    color:Background;
+    font-size: 20px;  
+    text-decoration:none;
 }
 #firstHeading {
     text-align:center;
@@ -14,4 +15,13 @@
     text-align:center;
 }
 body {
+}
+footer { 
+    display: block;
+    text-align:center;
+    background-color:cadetblue
+}
+p.solid {
+    border-style: solid;
+    border-color:red;
 }
